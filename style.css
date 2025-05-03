@@ -10,19 +10,314 @@ body{
   height: 100vh;
   background-color: #41e8bb;
 }
+  .topContainer{
+    display: grid;
+    grid-template-columns: 1fr repeat(41,2fr) 1fr ;
+    grid-template-rows:  1fr repeat(23, 2fr) 1fr;
+    height: 50%;
+    width:  75%;
+    position: absolute;
+    pointer-events: auto;
+    z-index: 10;
+  }
+  
+  .topzero{
+    grid-column: 1/4;
+    grid-row: 1/20;
+    position: relative;
+    z-index: -1;
+   
+  }
+  .no1{
+    grid-column: 5/7;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no2{
+    grid-column: 5/7;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no3{
+    grid-column: 5/7;
+    grid-row: 2/7;
+    /* background-color: rgb(245, 245, 250); */
+    position: relative;
+  }
+  .yellowchip{
+   border-color: rgb(251, 247, 133) ;  
+   background-color: rgb(200, 189, 90)
+  }
+  .redchip{
+    border-color:rgb(238, 109, 109) ;
+    background-color: rgb(255, 0, 0);
+  }
+  .blackchip{
+    border-color:rgb(18, 169, 233) ;
+    background-color: rgb(101, 205, 240);
+  }
+  .greenchip{
+    border-color:rgb(58, 158, 58) ;
+    background-color: green;
+  }
+  .bluechip{
+    border-color:rgb(228, 44, 210) ;
+    background-color: rgb(198, 85, 174);
+  }
+  
+  .s3,.s4{ 
+      width:30px;
+    height:30px;
+    /* border: solid 6px rgb(251, 247, 133) ;  */
+    border-radius:50% ;
+    /* background-color: rgb(238, 220, 131); */
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    translate: 50% -50%;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    z-index: -1;
+    border-width: 5px;
+    border-style: solid;  
+    }
+    
+  .no4{
+    grid-column: 8/10;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no5{
+    grid-column: 8/10;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no6{
+    grid-column: 8/10;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no7{
+    grid-column: 11/13;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no8{
+    grid-column: 11/13;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no9{
+    grid-column: 11/13;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no10{
+    grid-column: 14/16;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no11{
+    grid-column: 14/16;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no12{
+    grid-column: 14/16;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no13{
+    grid-column: 17/19;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no14{
+    grid-column: 17/19;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no15{
+    grid-column: 17/19;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no16{
+    grid-column: 20/22;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no17{
+    grid-column: 20/22;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no18{
+    grid-column: 20/22;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no19{
+    grid-column: 23/25;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no20{
+    grid-column: 23/25;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no21{
+    grid-column: 23/25;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no22{
+    grid-column: 26/28;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no23{
+    grid-column: 26/28;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no24{
+    grid-column: 26/28;
+    grid-row: 2/7;
+    position: relative;
+  } 
+  .no25{
+    grid-column: 29/31;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no26{
+    grid-column: 29/31;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no27{
+    grid-column: 29/31;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no28{
+    grid-column: 32/34;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no29{
+    grid-column: 32/34;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no30{
+    grid-column: 32/34;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no31{
+    grid-column: 35/37;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no32{
+    grid-column: 35/37;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no33{
+    grid-column: 35/37;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no34{
+    grid-column: 38/40;
+    grid-row: 14/19;
+    position: relative;
+  }
+  .no35{
+    grid-column: 38/40;
+    grid-row: 8/13;
+    position: relative;
+  }
+  .no36{
+    grid-column: 38/40;
+    grid-row: 2/7;
+    position: relative;
+  }
+  .no3to6{
+    grid-column: 7/8;
+    grid-row: 2/7;
+    position:relative;
+  }
+  .no2356{
+    grid-column: 7/8;
+    grid-row: 7/8;
+    position: relative;
+  }
+  
+  .firsttwelve{
+    grid-column: 6/15;	
+    grid-row: 20/22;
+    position: relative;
+    /* z-index: -1; */
+  }
+  .secondtwelve{
+    grid-column: 18/27;	
+    grid-row: 20/22;
+    position: relative;
+    
+  }
+  .thirdtwelve{
+    grid-column: 30/39;	
+    grid-row: 20/22;
+    position: relative;
+    /* background-color: rgb(0, 229, 255); */
+   
+  }
+
+/* .topone{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: rgb(255, 0, 0);
+} 
+.toptwo{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: rgb(0, 0, 255);
+}
+.topthree{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: rgb(0, 255, 0);
+}
+ .topfour{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: rgb(255, 255, 0);
+} */
+
 .maincontainer {
   /* border: solid 1pt white; */
   display: grid;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  height: 200px;
-  width:400px;
+  height: 50%;
+  width:75%;
   background-color: rgb(74, 165, 8);
+  z-index: 1;
+  position: relative;
   
 }
 .maincontainer div{
   border: 1px solid rgb(250, 247, 247);
-  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .test{
   background-color: rgb(20, 13, 217);
@@ -44,6 +339,7 @@ body{
   text-align: center;
   grid-column: 8/10;
   grid-row: 8/8;
+  position: relative;
 }
 .black{
   text-align: center  ;
@@ -278,9 +574,107 @@ body{
     color: rgb(254, 252, 252);
   }
   .maincontainer div span{
-    color: rgb(252, 253, 253);
-    writing-mode: vertical-lr; 
-    transform: rotate(180deg);
+    display: flex ;
+    justify-self: center;
+    align-self: center;  
+    /* display: grid;
+    place-items: center; */
+    font-size: 20px;
+    color: rgb(196, 200, 200);
+    /* writing-mode: vertical-lr;  */
+    transform: rotate(270deg);
     
   }
-  
+  .chipcontainer{
+    background-color: #41e8bb;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:  1fr;
+    height: 60px;
+    width: 300px;
+    gap: 5px 5px;
+    position: absolute;
+    top: 700px;
+    z-index: 500;
+  }
+  .chipcontainer div{
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    color: rgb(254, 252, 252);
+    border-radius: 50%;
+    cursor: pointer;
+    width:50px;
+    height: 50px; 
+    border-width: 7px;
+    border-style: solid;
+  }
+  .y{
+    border-color:rgb(251, 247, 133) ;
+    background-color: rgb(237, 216, 24);
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .r{
+    border-color: rgb(238, 109, 109) ;
+    background-color: rgb(255, 0, 0);
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .bl{
+    border-color:rgb(228, 44, 210) ;
+    background-color: rgb(198, 85, 174);
+    
+    grid-column: 5/6;
+    grid-row: 1/2;
+  } 
+  .g{
+    border-color: rgb(102, 242, 102) ;
+    background-color: rgb(99, 218, 99);
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .b{
+    background-color: rgb(28, 196, 218);
+    grid-column: 4/5; 
+    grid-row: 1/2;
+    border-color: rgb(14, 153, 181) ;
+  } 
+  .chipselected{
+    border: solid 2px white;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .actions{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    height: 60px;
+    width: 300px;
+    gap: 5px 5px;
+    position: absolute;
+    top: 775px;
+    z-index: 500;
+  }
+.act{ 
+  height: 60px;
+    width: 60px;
+    gap: 5px 5px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: burlywood;
+    border: 4px solid white;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+
+}
+  .clearbets{
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .Repeat{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
